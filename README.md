@@ -8,6 +8,8 @@ how to build:
 cd board/allwinner/suniv-f1c100s/patch/linux
 cat 0019-add-usb-display-demo-src.patch.des3.udisp_xfz1986 | openssl des3 -d -k pass_word > 0019-add-usb-display-demo-src.patch
 
+note:the pass_word should get form author on bilibili.
+
 2. just follow below step to get img
 
 3. run it:
