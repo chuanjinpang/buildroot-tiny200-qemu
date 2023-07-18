@@ -7,9 +7,9 @@ how to build:
 1. decrypt patch file
 
 cd board/allwinner/suniv-f1c100s/patch/linux
-cat 0019-add-usb-display-demo-src.patch.des3.udisp_xfz1986 | openssl des3 -d -k pass_word > 0019-add-usb-display-demo-src.patch
+cat 0019-add-usb-display-demo-src.patch.des3.udisp_xfz1986 | openssl des3  -md sha256 -d -k pass_word > 0019-add-usb-display-demo-src.patch
 
-note:the pass_word should get form author on bilibili.
+note:the pass_word should get form author on bilibili. 解密密码需要在b站上找作者，目前是粉丝团福利期，预计农历新年解除此限制。
 
 2. just follow below step to get img
 
